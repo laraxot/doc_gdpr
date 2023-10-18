@@ -749,10 +749,9 @@ eval("var toString = {}.toString;\n\nmodule.exports = Array.isArray || function 
 /*!***************************************!*\
   !*** ./source/_assets/sass/main.scss ***!
   \***************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ (() => {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zb3VyY2UvX2Fzc2V0cy9zYXNzL21haW4uc2NzcyIsIm1hcHBpbmdzIjoiO0FBQUEiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zb3VyY2UvX2Fzc2V0cy9zYXNzL21haW4uc2Nzcz9kY2NjIl0sInNvdXJjZXNDb250ZW50IjpbIi8vIGV4dHJhY3RlZCBieSBtaW5pLWNzcy1leHRyYWN0LXBsdWdpblxuZXhwb3J0IHt9OyJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./source/_assets/sass/main.scss\n");
+throw new Error("Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\nModuleBuildError: Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):\nError [ERR_REQUIRE_ESM]: require() of ES Module F:\\var\\www\\_bases\\base_quaeris_fila3\\laravel\\postcss.config.js from F:\\var\\www\\_bases\\base_quaeris_fila3\\laravel\\Modules\\Gdpr\\docs\\node_modules\\cosmiconfig\\dist\\loaders.js not supported.\nInstead change the require of postcss.config.js in F:\\var\\www\\_bases\\base_quaeris_fila3\\laravel\\Modules\\Gdpr\\docs\\node_modules\\cosmiconfig\\dist\\loaders.js to a dynamic import() which is available in all CommonJS modules.\n    at module.exports (F:\\var\\www\\_bases\\base_quaeris_fila3\\laravel\\Modules\\Gdpr\\docs\\node_modules\\import-fresh\\index.js:32:59)\n    at loadJs (F:\\var\\www\\_bases\\base_quaeris_fila3\\laravel\\Modules\\Gdpr\\docs\\node_modules\\cosmiconfig\\dist\\loaders.js:16:18)\n    at Explorer.loadFileContent (F:\\var\\www\\_bases\\base_quaeris_fila3\\laravel\\Modules\\Gdpr\\docs\\node_modules\\cosmiconfig\\dist\\Explorer.js:84:32)\n    at Explorer.createCosmiconfigResult (F:\\var\\www\\_bases\\base_quaeris_fila3\\laravel\\Modules\\Gdpr\\docs\\node_modules\\cosmiconfig\\dist\\Explorer.js:89:36)\n    at Explorer.loadSearchPlace (F:\\var\\www\\_bases\\base_quaeris_fila3\\laravel\\Modules\\Gdpr\\docs\\node_modules\\cosmiconfig\\dist\\Explorer.js:70:31)\n    at async Explorer.searchDirectory (F:\\var\\www\\_bases\\base_quaeris_fila3\\laravel\\Modules\\Gdpr\\docs\\node_modules\\cosmiconfig\\dist\\Explorer.js:55:27)\n    at async run (F:\\var\\www\\_bases\\base_quaeris_fila3\\laravel\\Modules\\Gdpr\\docs\\node_modules\\cosmiconfig\\dist\\Explorer.js:35:22)\n    at async cacheWrapper (F:\\var\\www\\_bases\\base_quaeris_fila3\\laravel\\Modules\\Gdpr\\docs\\node_modules\\cosmiconfig\\dist\\cacheWrapper.js:16:18)\n    at async cacheWrapper (F:\\var\\www\\_bases\\base_quaeris_fila3\\laravel\\Modules\\Gdpr\\docs\\node_modules\\cosmiconfig\\dist\\cacheWrapper.js:16:18)\n    at async cacheWrapper (F:\\var\\www\\_bases\\base_quaeris_fila3\\laravel\\Modules\\Gdpr\\docs\\node_modules\\cosmiconfig\\dist\\cacheWrapper.js:16:18)\n    at async cacheWrapper (F:\\var\\www\\_bases\\base_quaeris_fila3\\laravel\\Modules\\Gdpr\\docs\\node_modules\\cosmiconfig\\dist\\cacheWrapper.js:16:18)\n    at async cacheWrapper (F:\\var\\www\\_bases\\base_quaeris_fila3\\laravel\\Modules\\Gdpr\\docs\\node_modules\\cosmiconfig\\dist\\cacheWrapper.js:16:18)\n    at async cacheWrapper (F:\\var\\www\\_bases\\base_quaeris_fila3\\laravel\\Modules\\Gdpr\\docs\\node_modules\\cosmiconfig\\dist\\cacheWrapper.js:16:18)\n    at async cacheWrapper (F:\\var\\www\\_bases\\base_quaeris_fila3\\laravel\\Modules\\Gdpr\\docs\\node_modules\\cosmiconfig\\dist\\cacheWrapper.js:16:18)\n    at async Explorer.search (F:\\var\\www\\_bases\\base_quaeris_fila3\\laravel\\Modules\\Gdpr\\docs\\node_modules\\cosmiconfig\\dist\\Explorer.js:27:20)\n    at async loadConfig (F:\\var\\www\\_bases\\base_quaeris_fila3\\laravel\\Modules\\Gdpr\\docs\\node_modules\\postcss-loader\\dist\\utils.js:68:16)\n    at async Object.loader (F:\\var\\www\\_bases\\base_quaeris_fila3\\laravel\\Modules\\Gdpr\\docs\\node_modules\\postcss-loader\\dist\\index.js:54:22)\n    at processResult (F:\\var\\www\\_bases\\base_quaeris_fila3\\laravel\\Modules\\Gdpr\\docs\\node_modules\\webpack\\lib\\NormalModule.js:764:19)\n    at F:\\var\\www\\_bases\\base_quaeris_fila3\\laravel\\Modules\\Gdpr\\docs\\node_modules\\webpack\\lib\\NormalModule.js:866:5\n    at F:\\var\\www\\_bases\\base_quaeris_fila3\\laravel\\Modules\\Gdpr\\docs\\node_modules\\loader-runner\\lib\\LoaderRunner.js:400:11\n    at F:\\var\\www\\_bases\\base_quaeris_fila3\\laravel\\Modules\\Gdpr\\docs\\node_modules\\loader-runner\\lib\\LoaderRunner.js:252:18\n    at context.callback (F:\\var\\www\\_bases\\base_quaeris_fila3\\laravel\\Modules\\Gdpr\\docs\\node_modules\\loader-runner\\lib\\LoaderRunner.js:124:13)\n    at Object.loader (F:\\var\\www\\_bases\\base_quaeris_fila3\\laravel\\Modules\\Gdpr\\docs\\node_modules\\postcss-loader\\dist\\index.js:56:7)");
 
 /***/ }),
 
@@ -889,42 +888,7 @@ eval("\n\nvar _bind = Function.prototype.bind;\nfunction toFactory(Class) {\n  v
 /******/ 		return module.exports;
 /******/ 	}
 /******/ 	
-/******/ 	// expose the modules object (__webpack_modules__)
-/******/ 	__webpack_require__.m = __webpack_modules__;
-/******/ 	
 /************************************************************************/
-/******/ 	/* webpack/runtime/chunk loaded */
-/******/ 	(() => {
-/******/ 		var deferred = [];
-/******/ 		__webpack_require__.O = (result, chunkIds, fn, priority) => {
-/******/ 			if(chunkIds) {
-/******/ 				priority = priority || 0;
-/******/ 				for(var i = deferred.length; i > 0 && deferred[i - 1][2] > priority; i--) deferred[i] = deferred[i - 1];
-/******/ 				deferred[i] = [chunkIds, fn, priority];
-/******/ 				return;
-/******/ 			}
-/******/ 			var notFulfilled = Infinity;
-/******/ 			for (var i = 0; i < deferred.length; i++) {
-/******/ 				var [chunkIds, fn, priority] = deferred[i];
-/******/ 				var fulfilled = true;
-/******/ 				for (var j = 0; j < chunkIds.length; j++) {
-/******/ 					if ((priority & 1 === 0 || notFulfilled >= priority) && Object.keys(__webpack_require__.O).every((key) => (__webpack_require__.O[key](chunkIds[j])))) {
-/******/ 						chunkIds.splice(j--, 1);
-/******/ 					} else {
-/******/ 						fulfilled = false;
-/******/ 						if(priority < notFulfilled) notFulfilled = priority;
-/******/ 					}
-/******/ 				}
-/******/ 				if(fulfilled) {
-/******/ 					deferred.splice(i--, 1)
-/******/ 					var r = fn();
-/******/ 					if (r !== undefined) result = r;
-/******/ 				}
-/******/ 			}
-/******/ 			return result;
-/******/ 		};
-/******/ 	})();
-/******/ 	
 /******/ 	/* webpack/runtime/compat get default export */
 /******/ 	(() => {
 /******/ 		// getDefaultExport function for compatibility with non-harmony modules
@@ -977,68 +941,13 @@ eval("\n\nvar _bind = Function.prototype.bind;\nfunction toFactory(Class) {\n  v
 /******/ 		};
 /******/ 	})();
 /******/ 	
-/******/ 	/* webpack/runtime/jsonp chunk loading */
-/******/ 	(() => {
-/******/ 		// no baseURI
-/******/ 		
-/******/ 		// object to store loaded and loading chunks
-/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
-/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
-/******/ 		var installedChunks = {
-/******/ 			"/js/main": 0,
-/******/ 			"css/main": 0
-/******/ 		};
-/******/ 		
-/******/ 		// no chunk on demand loading
-/******/ 		
-/******/ 		// no prefetching
-/******/ 		
-/******/ 		// no preloaded
-/******/ 		
-/******/ 		// no HMR
-/******/ 		
-/******/ 		// no HMR manifest
-/******/ 		
-/******/ 		__webpack_require__.O.j = (chunkId) => (installedChunks[chunkId] === 0);
-/******/ 		
-/******/ 		// install a JSONP callback for chunk loading
-/******/ 		var webpackJsonpCallback = (parentChunkLoadingFunction, data) => {
-/******/ 			var [chunkIds, moreModules, runtime] = data;
-/******/ 			// add "moreModules" to the modules object,
-/******/ 			// then flag all "chunkIds" as loaded and fire callback
-/******/ 			var moduleId, chunkId, i = 0;
-/******/ 			if(chunkIds.some((id) => (installedChunks[id] !== 0))) {
-/******/ 				for(moduleId in moreModules) {
-/******/ 					if(__webpack_require__.o(moreModules, moduleId)) {
-/******/ 						__webpack_require__.m[moduleId] = moreModules[moduleId];
-/******/ 					}
-/******/ 				}
-/******/ 				if(runtime) var result = runtime(__webpack_require__);
-/******/ 			}
-/******/ 			if(parentChunkLoadingFunction) parentChunkLoadingFunction(data);
-/******/ 			for(;i < chunkIds.length; i++) {
-/******/ 				chunkId = chunkIds[i];
-/******/ 				if(__webpack_require__.o(installedChunks, chunkId) && installedChunks[chunkId]) {
-/******/ 					installedChunks[chunkId][0]();
-/******/ 				}
-/******/ 				installedChunks[chunkId] = 0;
-/******/ 			}
-/******/ 			return __webpack_require__.O(result);
-/******/ 		}
-/******/ 		
-/******/ 		var chunkLoadingGlobal = self["webpackChunk"] = self["webpackChunk"] || [];
-/******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
-/******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
-/******/ 	})();
-/******/ 	
 /************************************************************************/
 /******/ 	
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-/******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["css/main"], () => (__webpack_require__("./source/_assets/js/main.js")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/main"], () => (__webpack_require__("./source/_assets/sass/main.scss")))
-/******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
+/******/ 	// This entry module can't be inlined because the eval-source-map devtool is used.
+/******/ 	__webpack_require__("./source/_assets/js/main.js");
+/******/ 	var __webpack_exports__ = __webpack_require__("./source/_assets/sass/main.scss");
 /******/ 	
 /******/ })()
 ;
