@@ -10,7 +10,7 @@
         <meta property="og:title" content="{{ $page->title ?  $page->title . ' | ' : '' }}{{ $page->siteName }}"/>
         <meta property="og:description" content="{{ $page->description ?? $page->siteDescription }}"/>
         <meta property="og:url" content="{{ $page->getUrl() }}"/>
-        <meta property="og:image" content="/assets/img/logo.png"/>
+        <meta property="og:image" content="{{ $page->baseUrl }}/assets/img/logo.png"/>
         <meta property="og:type" content="website"/>
 
         <meta name="twitter:image:alt" content="{{ $page->siteName }}">
@@ -23,7 +23,7 @@
         <title>{{ $page->siteName }}{{ $page->title ? ' | ' . $page->title : '' }}</title>
 
         <link rel="home" href="{{ $page->baseUrl }}">
-        <link rel="icon" href="/favicon.ico">
+        <link rel="icon" href="{{ $page->baseUrl }}/favicon.ico">
 
         @stack('meta')
 
@@ -32,7 +32,7 @@
         @endif
 
         <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
-        <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
+        <link rel="stylesheet" href="{{ $page->baseUrl }}{{ mix('css/main.css', 'assets/build') }}">
 
         @if ($page->docsearchApiKey && $page->docsearchIndexName)
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
@@ -64,7 +64,7 @@
             @yield('body')
         </main>
 
-        <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
+        <script src="{{ $page->baseUrl }}{{ mix('js/main.js', 'assets/build') }}"></script>
 
         @stack('scripts')
 
