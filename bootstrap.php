@@ -16,6 +16,4 @@ use TightenCo\Jigsaw\Jigsaw;
  *     // Your code here
  * });
  */
-
 $events->afterBuild(GenerateSitemap::class);
-
